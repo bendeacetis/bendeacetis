@@ -35,7 +35,6 @@ body {
 #portfolio-header {
   margin: 50px 425px;
   display: flex;
-  gap: 48px;
   align-items: center;
 }
 
