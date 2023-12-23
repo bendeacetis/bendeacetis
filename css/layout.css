@@ -69,7 +69,6 @@ body {
 
 .name h1 {
   font-size: 80px;
-  margin: 0;
   font-weight: 900;
 }
 
@@ -77,6 +76,8 @@ body {
   font-size: 80px;
   text-align: left;
   font-weight: 900;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 
