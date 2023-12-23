@@ -6,7 +6,7 @@ if (document.getElementById('my-work-link')) {
 
 document.addEventListener('DOMContentLoaded', function() {
   const changingTextElement = document.getElementById('changing-text');
-  const textArray = ["uses dark mode.", "was a pleasure in class.", "Taco fanatic.", "organizes his files", "his favorite noodle is rigatoni."];
+  const textArray = ["uses dark mode.", "a pleasure in class.", "Taco fanatic.", "organizes his files", "his favorite noodle is rigatoni."];
   let currentIndex = 0;
 
   function changeText() {
@@ -14,5 +14,5 @@ document.addEventListener('DOMContentLoaded', function() {
     currentIndex = (currentIndex + 1) % textArray.length;
   }
 
-  setInterval(changeText, 3000);
+  setInterval(changeText, 2000);
 });
