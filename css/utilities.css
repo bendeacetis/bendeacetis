@@ -28,7 +28,7 @@ a.icon-link:hover {
 
 .navbar {
   width: 100%;
-  padding: 30px 50px;
+  padding: 15px 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -43,7 +43,9 @@ a.icon-link:hover {
 }
 
 .nav-title-link:hover {
-  text-decoration: underline;
+  cursor: pointer;
+  border-color: #0056b3; /* Adjust the hover border color to a slightly darker blue */
+  transform: scale(1.05); /* Scale the button slightly on hover */
 }
 
 /* Small devices (portrait tablets and large phones, 800px and below) */
@@ -59,20 +61,21 @@ a.icon-link:hover {
 
 a.button {
   padding: 8px 16px;
-  border: 3px solid #141414;
+  border: 3px solid #007BFF; /* Change the border color to blue */
   border-radius: 50px;
-  color: black;
+  color: #007BFF; /* Change the text color to blue */
   text-decoration: none;
   width: fit-content;
   display: flex;
   gap: 5px;
   align-items: center;
+  transition: border-color 0.3s ease-in-out, transform 0.3s ease-in-out; /* Add transition for border color and transform */
 }
 
 a.button:hover {
-  text-decoration: underline;
-  text-decoration-thickness: 2px;
   cursor: pointer;
+  border-color: #0056b3; /* Adjust the hover border color to a slightly darker blue */
+  transform: scale(1.05); /* Scale the button slightly on hover */
 }
 
 
