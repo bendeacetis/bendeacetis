@@ -44,7 +44,7 @@ a.icon-link:hover {
 
 .nav-title-link:hover {
   cursor: pointer;
-  border-color: #0056b3; /* Adjust the hover border color to a slightly darker blue */
+  border-color: black; /* Adjust the hover border color to a slightly darker blue */
   transform: scale(1.05); /* Scale the button slightly on hover */
 }
 
@@ -61,7 +61,7 @@ a.icon-link:hover {
 
 a.button {
   padding: 8px 16px;
-  background-color: #007BFF; /* Set the background color to blue */
+  background-color: black; /* Set the background color to blue */
   border: none; /* Remove the border */
   border-radius: 50px;
   color: white; /* Set the text color to white */
@@ -75,7 +75,7 @@ a.button {
 
 a.button:hover {
   cursor: pointer;
-  background-color: #0056b3; /* Adjust the hover background color to a slightly darker blue */
+  background-color: black; /* Adjust the hover background color to a slightly darker blue */
   transform: scale(1.05); /* Scale the button slightly on hover */
 }
 
