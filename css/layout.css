@@ -62,7 +62,7 @@ body {
 #portfolio-section {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   height: 100vh;
 }
@@ -75,7 +75,7 @@ body {
 .description p {
   font-size: 80px;
   margin: 10px 0;
-  text-align: center;
+  text-align: left;
 }
 
 
