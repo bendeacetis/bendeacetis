@@ -62,6 +62,7 @@ a.icon-link:hover {
 a.button {
   padding: 8px 16px;
   background-color: #007BFF; /* Set the background color to blue */
+  border: none; /* Remove the border */
   border-radius: 50px;
   color: white; /* Set the text color to white */
   text-decoration: none;
