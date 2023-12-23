@@ -74,8 +74,8 @@ body {
 
 .description p {
   font-size: 80px;
-  margin: 10px 0;
   text-align: left;
+  font-weight: 900;
 }
 
 
