@@ -37,8 +37,8 @@ body {
   display: flex;
   gap: 0px;
   align-items: start;
-  /* flex-direction: column; */
 }
+/* flex-direction: column; */
 
 #portfolio-header-image-container {
   display: flex;
