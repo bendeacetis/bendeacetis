@@ -28,7 +28,7 @@ a.icon-link:hover {
 
 .navbar2 {
   width: 100%;
-  padding: 50px 50px;
+  padding: 15px 50px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -85,6 +85,27 @@ a.button {
 }
 
 a.button:hover {
+  cursor: pointer;
+  background-color: black; /* Adjust the hover background color to a slightly darker blue */
+  transform: scale(1.05); /* Scale the button slightly on hover */
+}
+
+b.button {
+  padding: 8px 16px;
+  background-color: black; /* Set the background color to blue */
+  border: none; /* Remove the border */
+  border-radius: 50px;
+  color: white; /* Set the text color to white */
+  text-decoration: none;
+  margin-left: 10px;
+  width: fit-content;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out; /* Add transition for background color and transform */
+}
+
+b.button:hover {
   cursor: pointer;
   background-color: black; /* Adjust the hover background color to a slightly darker blue */
   transform: scale(1.05); /* Scale the button slightly on hover */
