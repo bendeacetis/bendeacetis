@@ -82,6 +82,7 @@ a.button {
   border-radius: 50px;
   color: white; /* Set the text color to white */
   text-decoration: none;
+  margin-left: 10px;
   width: fit-content;
   display: flex;
   gap: 5px;
