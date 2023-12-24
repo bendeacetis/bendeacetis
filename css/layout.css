@@ -21,11 +21,12 @@ body {
 /* Main Page Layout */
 
 #main-content {
-  margin: 50px 425px;
+  margin: 225px 425px;
   display: flex;
   flex-direction: column;
   gap: 48px;
 }
+
 
 
 
@@ -62,9 +63,9 @@ body {
 #portfolio-section {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: left;
   justify-content: center;
-  /* height: 100vh; */
+  height: 100vh;
 }
 
 .name h1 {
