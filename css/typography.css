@@ -25,11 +25,12 @@ body {
 }
 .intro-title {
   font-size: 80px;
+  padding: 0;
   font-weight: 900;
 }
 
 .subheader-text {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 700;
 }
 
