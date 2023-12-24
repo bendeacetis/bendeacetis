@@ -69,11 +69,13 @@ body {
 }
 
 .name h1 {
+  margin: 10;
   font-size: 80px;
   font-weight: 900;
 }
 
 .description p {
+  margin: 10;
   font-size: 80px;
   text-align: left;
   font-weight: 900;
