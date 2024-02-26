@@ -6,7 +6,7 @@ if (document.getElementById('my-work-link')) {
 
 document.addEventListener('DOMContentLoaded', function() {
   const changingTextElement = document.getElementById('changing-text');
-  const textArray = ["uses dark mode.", "a pleasure in class.", "Taco fanatic.", "organizes his files.", "his favorite noodle is rigatoni.", "likes dogs more than cats.", "loves long walks."];
+  const textArray = ["Benjamin DeAcetis, uses dark mode.", "Benjamin DeAcetis, a pleasure in class.", "Benjamin DeAcetis, Taco fanatic.", "Benjamin DeAcetis, organizes his files.", "Benjamin DeAcetis, his favorite noodle is rigatoni.", "Benjamin DeAcetis, likes dogs more than cats.", "Benjamin DeAcetis, loves long walks."];
   let currentIndex = 0;
 
   function changeText() {
