@@ -74,12 +74,14 @@ body {
 .name h1 {
   font-size: 80px;
   font-weight: 900;
+  height: auto;
 }
 
 .description p {
   font-size: 80px;
   text-align: left;
   font-weight: 900;
+  height: auto;
 }
 
 
