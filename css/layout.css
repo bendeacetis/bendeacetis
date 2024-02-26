@@ -67,7 +67,8 @@ body {
   align-items: left;
   justify-content: center;
   gap: 0px;
-  height: 100vh;
+  height: auto;
+  letter-spacing: normal;
 }
 
 .name h1 {
